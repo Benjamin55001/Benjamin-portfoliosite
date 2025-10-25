@@ -1,0 +1,60 @@
+/* ================= NAVIGATION ================= */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background: transparent; /* Made transparent */
+  backdrop-filter: blur(8px); /* Optional smooth glassy effect */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 6%;
+  color: #f6f7f8;
+  transition: all 0.3s ease;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #00e5ff;
+  letter-spacing: 0.5px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links li a {
+  color: #dce3e8;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #00e5ff;
+}
+
+.hire-btn {
+  background: linear-gradient(90deg, #00e5ff, #00b8d4);
+  color: #0a0f14;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.hire-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 20px rgba(0, 229, 255, 0.3);
+}
